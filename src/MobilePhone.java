@@ -5,7 +5,9 @@ public class MobilePhone extends Phone {
 		System.out.println("Mobile roaming");
 	}
 	
-
+public void call(){
+	System.out.println("Mobile Phone Calling");
+}
 	
 	
 
