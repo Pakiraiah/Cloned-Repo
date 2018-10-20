@@ -5,13 +5,15 @@ public class TestPhone {
 	
 		Phone p = new Phone();
 		MobilePhone m = new MobilePhone();
+		SmartPhone s = new SmartPhone();
 		
 		p.call();
 		p.voiceText();
 		m.call();
 		m.voiceText();
 		m.roamfree();
-		
+		s.call();
+	
 
 	}
 
